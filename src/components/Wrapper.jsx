@@ -4,13 +4,15 @@ import videoSource from "../assets/bgVideo.mp4";
 
 const Wrapper = () => {
 	return (
-		<div>
-			<video autoPlay loop muted className="absolute z-0 w-full h-full object-cover">
+		<div className="h-screen relative">
+			<video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover">
 				<source src={videoSource} type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
-			<Navbar />
-			<Hero />
+			<div className="relative z-10">
+				<Navbar />
+				<Hero />
+			</div>
 		</div>
 	);
 };
