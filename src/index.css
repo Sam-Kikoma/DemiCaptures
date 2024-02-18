@@ -6,11 +6,20 @@
 @tailwind utilities;
 
 body {
-	background-color: #2b2d42;
+	overflow-y: hidden;
+}
+
+.stroke {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: whitesss;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 @layer base {
-	nav {
+	body {
 		font-family: "Space Grotesk", sans-serif;
 	}
 }

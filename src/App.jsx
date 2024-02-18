@@ -1,10 +1,10 @@
 import "./index.css";
-import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 
 const App = () => {
 	return (
 		<>
-			<Navbar />
+			<Wrapper />
 		</>
 	);
 };

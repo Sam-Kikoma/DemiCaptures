@@ -8,7 +8,7 @@ const Navbar = () => {
 		setNav(!nav);
 	};
 	return (
-		<nav className="h-20 max-w[1240px] mx-auto p-6 text-white font-extrabold text-xl">
+		<nav className="h-20 max-w[1240px] mx-auto p-6 text-white font-extrabold text-xl relative z-20">
 			<ul className="w-full hidden md:flex justify-center cursor-pointer ">
 				<li className="px-16">HOME</li>
 				<li className="px-16">ABOUT</li>
