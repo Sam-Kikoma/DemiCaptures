@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
 	return (
-		<div className="w-full h-screen relative overflow-hidden">
+		<div className="w-full h-full relative overflow-hidden">
 			<div className="absolute inset-0 flex flex-col justify-center items-center z-10">
 				<div className="text-center md:text-9xl text-5xl tracking-wider font-extrabold text-white">
 					<div className=" ">

@@ -5,10 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	overflow-y: hidden;
-}
-
 .stroke {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: whitesss;
@@ -16,6 +12,15 @@ body {
 	text-align: center;
 	display: flex;
 	justify-content: center;
+}
+
+body {
+	background-color: #1e1e1e;
+}
+
+.video {
+	height: auto !important;
+	aspect-ratio: 16/9;
 }
 
 @layer base {
